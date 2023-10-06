@@ -21,7 +21,7 @@ createApp({
       })
     },
     generateEmail(n){
-      for(let i = 1;i < n;i++){
+      for(let i = 0;i < n;i++){
         this.getApi();
       }
     }
@@ -29,7 +29,6 @@ createApp({
 
 
   mounted(){
-    this.getApi();
     this.generateEmail(10)
   }
 }).mount('#app')
