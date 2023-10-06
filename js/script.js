@@ -1,13 +1,15 @@
-const {crateApp} = Vue;
+const {createApp} = Vue;
 
 
-crateApp({
+createApp({
 
   data(){
     return{
-      
+
+      title : 'List Emails:'
+
     }
   }
 
 
-}).mount("#app")
+}).mount('#app')
