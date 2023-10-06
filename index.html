@@ -15,8 +15,8 @@
 
 
     <h1>{{title}}</h1>
-    <ul>
-      <li>{{generatedEmail}}</li>
+    <ul v-for="mail in generatedEmail">
+      <li>{{mail}}</li>
     </ul>
 
   </div>
